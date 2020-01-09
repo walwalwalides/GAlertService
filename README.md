@@ -21,6 +21,24 @@ Principal Software Benefits:
 ### Main View
 ![](Img/Main.png)
 
+
+
+------
+
+## To Create a Monotoring Alert:
+
+The two most important steps to do: 
+
+- First,you need to define a "Event ID" ,the Event ID should be between 7000 and 7044 ,it's below to (Service Control Manager Eventlog).
+
+For more Information you can find Here : https://www.geoffchappell.com/studies/windows/win32/services/scm/events/eventlog.htm
+
+- Second, by using Gmail account ,you have to deactivate more security in Gmail account to send and recieve emails without any problem.
+that means "Allow less secure app" an (On) State.
+
+
+------
+
 ## Contains
 
 | File | Contents | 
