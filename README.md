@@ -33,7 +33,7 @@ The two most important steps to do:
 
 For more Information you can find Here : https://www.geoffchappell.com/studies/windows/win32/services/scm/events/eventlog.htm
 
-- Second, by using Gmail account ,you have to deactivate more security in Gmail account to send and recieve emails without any problem.
+- Second, by using Gmail account ,you have to deactivate more security (Option) in Gmail account to send and recieve emails without any problem.
 that means "Allow less secure app" an (On) State.
 
 
