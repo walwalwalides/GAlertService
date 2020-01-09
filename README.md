@@ -8,14 +8,14 @@ GAlertService is a Software Solution for Creating a Windows Service Monitor Usin
 **Authors:**  *WalWalWalides*
 ------
 
-`DSC` help programmer to be an Exceptional Software Developer: Learn Faster and Stay Motivated.
+`GAlertService` help programmer to get quickly information by windows service Error.
 
 
 Principal Software Benefits:
 
      - Get instance information by windows service Error
      
-     - Increase your knowledge in different fields within short time
+     - Use your own Gmail account to receive information
 
 
 ### Main View
@@ -26,7 +26,7 @@ Principal Software Benefits:
 | File | Contents | 
 | --- | --- |
 | .gitignore | Git ignores the Files in this File |
-|[GAlertService.exe](https://github.com/walwalwalides/DSC/releases/download/GAlertService/GAlertService__Setup.exe)| Download GAlertService.
+|[GAlertService.exe](https://github.com/walwalwalides/GAlertService/releases/download/GAlertService/GAlertService__Setup.exe)| Download GAlertService.
 | README.md | The Readme for this Project|
 
 ------
