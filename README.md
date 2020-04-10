@@ -6,7 +6,7 @@ GAlertService is a Software Solution for Creating a Windows Service Monitor Usin
 ![GitHub](https://img.shields.io/github/license/walwalwalides/GAlertService)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/walwalwalides/GAlertService)
-![GitHub last commit](https://img.shields.io/github/last-commit/msnts/GAlertService)
+![GitHub last commit](https://img.shields.io/github/last-commit/walwalwalides/GAlertService)
 [![GitHub stars](https://img.shields.io/github/stars/walwalwalides/GAlertService)](https://github.com/walwalwalides/GAlertService/stargazers)
 
 
