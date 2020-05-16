@@ -25,7 +25,7 @@ Principal Software Benefits:
      
 ## Built With
 
-* [WinTaskSched](https://github.com/jrathlev/Delphi-WinTaskSched - Delphi-WinTaskSched by ( jrathlev ) 
+* [WinTaskSched](https://github.com/jrathlev/Delphi-WinTaskSched) - Delphi-WinTaskSched by ( jrathlev ) 
 
 
 ### Main View
