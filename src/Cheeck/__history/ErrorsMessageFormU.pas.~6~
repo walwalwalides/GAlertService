@@ -1,0 +1,90 @@
+{ ============================================
+
+  Software Name : 	GAlertService
+  ============================================ }
+{ ******************************************** }
+{ Written By WalWalWalides }
+{ CopyRight © 2020 }
+{ Email : WalWalWalides@gmail.com }
+{ GitHub :https://github.com/walwalwalides }
+{ ******************************************** }
+
+unit ErrorsMessageFormU;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TErrorsMessageForm = class(TForm)
+    Memo1: TMemo;
+    Label1: TLabel;
+    procedure FormShow(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+
+     FWndProc: TWndMethod;
+    FErrors: TArray<String>;
+    procedure SetErrors(const Value: TArray<String>);
+    procedure MemoWndProc(var Msg: TMessage);
+    { Private declarations }
+  public
+    { Public declarations }
+    property Errors: TArray<String> read FErrors write SetErrors;
+  end;
+
+var
+  ErrorsMessageForm: TErrorsMessageForm;
+
+implementation
+
+uses
+  TaskMain;
+{$R *.dfm}
+{ TErrorsMessageForm }
+
+
+procedure TErrorsMessageForm.MemoWndProc(var Msg: TMessage);
+begin
+  if Msg.Msg = WM_SETFOCUS then
+  begin
+    HideCaret(Memo1.Handle); // Cursor verstecken
+    Msg.Result := 0;
+  end else
+    FWndProc(Msg); // alte Fensterproceure aufrufen
+end;
+
+
+procedure TErrorsMessageForm.FormCreate(Sender: TObject);
+
+begin
+  FWndProc := Memo1.WindowProc; // alte Fensterproceure merken
+  Memo1.WindowProc := MemoWndProc; // Fensterproceure auf eigene Fensterprocedure umbiegen
+  Label1.font.Color:=rgb(252,62,15);
+
+end;
+
+procedure TErrorsMessageForm.FormShow(Sender: TObject);
+begin
+  color := clWhite;
+  ErrorsMessageForm.Left := (screen.width - ErrorsMessageForm.width) div 2;
+  ErrorsMessageForm.Top := (screen.Height - ErrorsMessageForm.Height) div 2;
+end;
+
+procedure TErrorsMessageForm.SetErrors(const Value: TArray<String>);
+var
+  LError: String;
+begin
+  FErrors := Value;
+  Memo1.Lines.Clear;
+  for LError in Value do
+  begin
+    Memo1.Lines.Add(LError);
+  end;
+end;
+
+end.
+

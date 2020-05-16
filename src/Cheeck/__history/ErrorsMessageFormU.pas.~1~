@@ -1,0 +1,61 @@
+{ ============================================
+  Software Name : 	UPM
+  ============================================ }
+{ ******************************************** }
+{ Written By WalWalWalides                     }
+{ CopyRight © 2019                             }
+{ Email : WalWalWalides@gmail.com              }
+{ GitHub :https://github.com/walwalwalides     }
+{ ******************************************** }
+unit ErrorsMessageFormU;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TErrorsMessageForm = class(TForm)
+    Memo1: TMemo;
+    Label1: TLabel;
+    procedure FormShow(Sender: TObject);
+  private
+    FErrors: TArray<String>;
+    procedure SetErrors(const Value: TArray<String>);
+    { Private declarations }
+  public
+    { Public declarations }
+    property Errors: TArray<String> read FErrors write SetErrors;
+  end;
+
+var
+  ErrorsMessageForm: TErrorsMessageForm;
+
+implementation
+
+uses
+  InsertEmployee;
+{$R *.dfm}
+{ TErrorsMessageForm }
+
+procedure TErrorsMessageForm.FormShow(Sender: TObject);
+begin
+  ErrorsMessageForm.top := frmInsertEmployee.top;
+    ErrorsMessageForm.left := frmInsertEmployee.left-ErrorsMessageForm.Width;
+end;
+
+procedure TErrorsMessageForm.SetErrors(const Value: TArray<String>);
+var
+  LError: String;
+begin
+  FErrors := Value;
+  Memo1.Lines.Clear;
+  for LError in Value do
+  begin
+    Memo1.Lines.Add(LError);
+  end;
+end;
+
+end.

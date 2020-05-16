@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.074,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\ExtSysUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.410,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Cheeck\ErrorsMessageFormU.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.525,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\About\About.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.809,C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\GAlertService.dproj=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\TaskSchedTest.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.309,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\SetupUPM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.596,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Cheeck\ValidatorU.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\WinTask.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.696,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Utils\DX.Windows.UAC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.146,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Cheeck\BOsU.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.646,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\UnitConsts.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.828,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\WinApiUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\WinTaskConsts.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.935,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Cheeck\AttributesU.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.145,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\TaskSchedApi.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.625,C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\CreateScript.pas=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\units\SetupUPM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.899,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Utils\ToolLibSetting.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.480,=C:\Users\Walid\Desktop\Delphi-WinTaskSched-master\Utils\DBGridUtils.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="About"/>
+    <File Path="About\About.pas"/>
+    <File Path="About\About.dfm"/>
+    <File Path="Cheeck"/>
+    <File Path="Cheeck\AttributesU.pas"/>
+    <File Path="Cheeck\BOsU.pas"/>
+    <File Path="Cheeck\ErrorsMessageFormU.pas"/>
+    <File Path="Cheeck\ErrorsMessageFormU.dfm"/>
+    <File Path="Cheeck\ValidatorU.pas"/>
+    <File Path="units"/>
+    <File Path="units\CreateScript.pas"/>
+    <File Path="units\ExtSysUtils.pas"/>
+    <File Path="units\TaskSchedApi.pas"/>
+    <File Path="units\UnitConsts.pas"/>
+    <File Path="units\WinApiUtils.pas"/>
+    <File Path="units\WinTask.pas"/>
+    <File Path="units\WinTaskConsts.pas"/>
+    <File Path="Utils"/>
+    <File Path="Utils\DBGridUtils.pas"/>
+    <File Path="Utils\DX.Windows.UAC.pas"/>
+    <File Path="Utils\ToolLibSetting.pas"/>
+    <File Path="TaskMain.pas"/>
+    <File Path="TaskMain.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,21 @@
+program GAlertService;
+
+uses
+  Vcl.Forms,
+  TaskMain in 'TaskMain.pas' {MainForm},
+  ExtSysUtils in 'units\ExtSysUtils.pas',
+  TaskSchedApi in 'units\TaskSchedApi.pas',
+  UnitConsts in 'units\UnitConsts.pas',
+  WinApiUtils in 'units\WinApiUtils.pas',
+  WinTask in 'units\WinTask.pas',
+  WinTaskConsts in 'units\WinTaskConsts.pas',
+  CreateScript in 'units\CreateScript.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.Run;
+end.

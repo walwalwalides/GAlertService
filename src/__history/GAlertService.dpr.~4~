@@ -1,0 +1,28 @@
+program GAlertService;
+
+uses
+  Vcl.Forms,
+  TaskMain in 'TaskMain.pas' {frmTaskMain},
+  ExtSysUtils in 'units\ExtSysUtils.pas',
+  TaskSchedApi in 'units\TaskSchedApi.pas',
+  UnitConsts in 'units\UnitConsts.pas',
+  WinApiUtils in 'units\WinApiUtils.pas',
+  WinTask in 'units\WinTask.pas',
+  WinTaskConsts in 'units\WinTaskConsts.pas',
+  CreateScript in 'units\CreateScript.pas',
+  AttributesU in 'Cheeck\AttributesU.pas',
+  BOsU in 'Cheeck\BOsU.pas',
+  ErrorsMessageFormU in 'Cheeck\ErrorsMessageFormU.pas' {ErrorsMessageForm},
+  ValidatorU in 'Cheeck\ValidatorU.pas',
+  About in 'About\About.pas' {AboutBox};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmTaskMain, frmTaskMain);
+  Application.CreateForm(TErrorsMessageForm, ErrorsMessageForm);
+  Application.CreateForm(TAboutBox, AboutBox);
+  Application.Run;
+end.
