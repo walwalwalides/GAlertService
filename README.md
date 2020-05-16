@@ -21,7 +21,11 @@ Principal Software Benefits:
 
      - Get instance information by windows service Error
      
-     - Use your own Gmail account to receive information
+     - Use your own Gmail account to receive information     
+     
+## Built With
+
+* [WinTaskSched](https://github.com/jrathlev/Delphi-WinTaskSched) - Delphi-WinTaskSched by ( jrathlev ) 
 
 
 ### Main View
