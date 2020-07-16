@@ -1,5 +1,5 @@
 # GAlertService 
-GAlertService is a Software Solution for Creating a Windows Service Monitor Using Email.
+- GAlertService is a Software Solution for Creating a Windows Service Monitor Using Email.
 
 ![Platforms](https://img.shields.io/badge/Supported%20platforms-Win32%20and%20Win64-red.svg)
 
