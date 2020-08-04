@@ -1,5 +1,5 @@
 # GAlertService 
-- GAlertService is a Software Solution for Creating a Windows Service Monitor Using Email.
+> GAlertService is a Software Solution for Creating a Windows Service Monitor Using Email.
 
 ![Platforms](https://img.shields.io/badge/Supported%20platforms-Win32%20and%20Win64-red.svg)
 
@@ -9,8 +9,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/walwalwalides/GAlertService)
 [![GitHub stars](https://img.shields.io/github/stars/walwalwalides/GAlertService)](https://github.com/walwalwalides/GAlertService/stargazers)
 
+<p align="center"/>
+<img src=GAlertService.png />
+<p/>
 
-![](GAlertService.png)
 **Authors:**  *WalWalWalides*
 ------
 
@@ -54,9 +56,10 @@ that means "Allow less secure app" an (On) State.
 
 | File | Contents | 
 | --- | --- |
-| .gitignore | Git ignores the Files in this File |
 |[GAlertService.exe](https://github.com/walwalwalides/GAlertService/releases/download/GAlertService/GAlertService__Setup.exe)| Download GAlertService.
 | README.md | The Readme for this Project|
+| .gitignore | Git ignores the Files in this File |
+
 
 ------
 
