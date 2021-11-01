@@ -39,7 +39,6 @@
 *.dres
 *.rsm
 *.tds
-*.dcu
 *.lib
 *.a
 *.o
@@ -56,6 +55,7 @@
 *.projdata
 *.tvsconfig
 *.dsk
+*.dcu
 
 # Delphi history and backups
 __history/
